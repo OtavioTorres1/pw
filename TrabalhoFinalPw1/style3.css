@@ -1,0 +1,180 @@
+header{
+
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    
+    border-bottom: 3px solid rgb(0, 0, 0);
+
+    left: 0%;
+    width: 100%;
+    height: 130px;
+}
+
+.logo1{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: -27%;
+    left: 10%;
+}
+
+.BotaoFaleConosco{
+    position: absolute;
+    color: BurlyWood;
+    top: 41%;
+    left: 49%;
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    height: 35px;
+    padding: 0px 20px;
+    border:none;
+    border-top: 1px solid BurlyWood;
+    border-bottom: 1px solid BurlyWood;
+    border-right: 1px solid BurlyWood;
+    border-left: 1px solid BurlyWood;
+}
+
+.BotaoHome{
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 62%;
+    font-size: 25px;
+}
+
+
+.BotaoGaleria{
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 67%;
+    font-size: 25px;
+}
+
+.BotaoCardapio{
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 73%;
+    font-size: 25px;
+}
+
+
+.container2{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-top: 3px solid rgb(0, 0, 0);
+
+
+    height: 500px;
+    width: 100%;
+    left: 0%;
+    top: 345.5%;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.ColunaFaleConosco{
+    position: relative;
+    background-color: #ffffff;
+    width: 550px;
+    height: 300px;
+    top: -3%;
+    
+}
+
+.TituloFaleConosco{
+    position: absolute;
+    left: 32.5%;
+    top: 4%;
+}
+
+.TextoFaleConosco{
+    position: absolute;
+    left: 22%;
+    top: 34%;
+}
+
+.botaoFaleConosco{
+    position: absolute;
+    left: 37%;
+    top: 65%;
+    color:#010101;
+    background: rgb(255, 255, 255);
+    height: 35px;
+    padding: 0px 20px;
+    border:none;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+
+footer{
+
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+    height: 230px;
+    top:  450%;
+    left: 0%;
+
+}
+
+.logo2{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 0%;
+    left: 5%;
+}
+
+.email{
+    position: absolute;
+    color: white;
+    top:28%;
+    left:33%;
+}
+
+.numtel{
+    position: absolute;
+    color: white;
+    top:38%;
+    left:33%;
+}
+
+.tituloContato{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top:5%;
+    left:33%;
+
+}
+
+.tituloEndereco{
+    position: absolute;
+    color: white;
+    top:5%;
+    left:58%;
+}
+
+.Endereco{
+    position: absolute;
+    color: white;
+    top:28%;
+    left:58%;
+}
+
+.direitoshome{
+    position: absolute;
+    color: white;
+    left:30%;
+    top:80%;
+    font-size: 7px;
+}

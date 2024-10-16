@@ -1,0 +1,487 @@
+body{
+    background-color: white;
+}
+
+
+
+.rubik-uniquifier {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+header{
+    background-image: url(../images/imagem\ home\ 01.jpg);
+    background-repeat: no-repeat;
+    opacity: 10%;                       
+    background-size: 100%;
+    background-position: 100%;  
+    color: black;
+    background-color: black;
+    box-shadow: 1 1 100px black;
+    position: relative;
+
+    background-color: rgb(0, 0, 0);
+    
+    left: -1%;
+    width: 101.51%;
+    height: 540px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo1{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: -22%;
+    left: 10%;
+}
+
+.BotaoFaleConosco{
+    position: absolute;
+    color: BurlyWood;
+    top: 41%;
+    left: 77%;
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    height: 35px;
+    padding: 0px 20px;
+    border:none;
+    border-top: 1px solid BurlyWood;
+    border-bottom: 1px solid BurlyWood;
+    border-right: 1px solid BurlyWood;
+    border-left: 1px solid BurlyWood;
+}
+
+.BotaoFaleConosco:hover{
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.BotaoHome{
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 51%;
+    font-size: 25px;
+    padding: 0px 20px;
+    border-right: 3px solid BurlyWood;
+}
+
+.BotaoHome:hover{
+    color: burlywood;
+}
+
+.BotaoGaleria{
+    position: absolute;
+    color: rgb(15, 13, 13);
+    top: 43%;
+    left: 67%;
+    font-size: 25px;
+    padding: 0px 20px;
+    border-right: 3px solid BurlyWood;
+}
+
+.BotaoGaleria:hover{
+    color: burlywood;
+}
+
+.BotaoCardapio{
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 58%;
+    font-size: 25px;
+    padding: 0px 20px;
+    border-right: 3px solid BurlyWood;
+}
+
+.BotaoCardapio:hover{
+    color: rgb(35, 28, 18);
+}
+
+
+
+.bemvindo{
+    position: absolute;
+    left:45%;
+    top:26%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+
+.somos{
+    position: absolute;
+    left:58%;
+    top:50%;
+}
+
+.textoquemsomos{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    font-size: 20px;
+
+}
+
+.listaeventos{
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    font-size: 20px;
+}
+
+.imagemquemsomos{
+    position: absolute;
+    top:54%;
+    left: 10%;
+    width: 630px;
+    height: 470px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+
+
+.container{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+
+    height: 400px;
+    width: 70%;
+
+    left: 15%;
+    top: 150%;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.titulocontainer{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 20px;
+}
+
+.coluna1{
+    position: relative;
+    background-color: #ffffff;
+    width: 280px;
+    height: 350px;
+    top: 50%;
+
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.descricao1{
+    position: absolute;
+    font-size: 20px;
+    left: 28%;
+    top: 73%;
+}
+
+.imagem1{
+    position: absolute;
+    width: 279.5px;
+    height: 220px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.coluna2{
+    position: relative;
+    background-color: #ffffff;
+    width: 280px;
+    height: 350px;
+    top: 50%;
+
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.descricao2{
+    position: absolute;
+    font-size: 20px;
+    left: 30%;
+    top: 73%;
+}
+
+.imagem2{
+    position: absolute;
+    width: 279.5px;
+    height: 220px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.coluna3{
+    position: relative;
+    background-color: #ffffff;
+    width: 280px;
+    height: 350px;
+    top: 50%;
+
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.descricao3{
+    position: absolute;
+    font-size: 20px;
+    left: 29%;
+    top: 73%;
+}
+
+.imagem3{
+    position: absolute;
+    width: 279.5px;
+    height: 220px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+
+.tituloporquenosescolher{
+    position:absolute;
+    top: 265%;
+    left: 7%;
+}
+
+.textoporquenosescolher{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    font-size: 20px;
+    top: 272%;
+    left: 5%;
+}
+
+.tituloDiferencial{
+    position: absolute;
+    top: 290%;
+    left: 7%;
+}
+
+.diferencial1{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    font-size: 20px;
+    top: 299%;
+    left: 10%;
+}
+
+.diferencial2{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    font-size: 20px;
+    top: 302%;
+    left: 10%;
+}
+
+.diferencial3{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    font-size: 20px;
+    top: 305%;
+    left: 10%;
+}
+
+.diferencial4{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    font-size: 20px;
+    top: 308%;
+    left: 10%;
+}
+
+.imagemporquenosescolher{
+    position: absolute;
+    width: 550px;
+    height: 420px;
+    top: 265%;
+    left: 55%;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+
+
+.container2{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-top: 3px solid rgb(0, 0, 0);
+
+
+    height: 500px;
+    width: 100%;
+    left: 0%;
+    top: 345.5%;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.ColunaFaleConosco{
+    position: relative;
+    background-color: #ffffff;
+    width: 550px;
+    height: 300px;
+    top: -3%;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+    
+}
+
+.TituloFaleConosco{
+    position: absolute;
+    left: 32.5%;
+    top: 4%;
+}
+
+.TextoFaleConosco{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    left: 16%;
+    top: 34%;
+}
+
+.botaoFaleConosco{
+    position: absolute;
+    left: 37%;
+    top: 65%;
+    color:burlywood;
+    background: rgb(255, 255, 255);
+    height: 35px;
+    width: 90px;
+    padding: 0px 20px;
+    border:none;
+    border-top: 1px solid burlywood;
+    border-bottom: 1px solid burlywood;
+    border-right: 1px solid burlywood;
+    border-left: 1px solid burlywood;
+}
+
+.botaoFaleConosco:hover{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.nomefaleconosco{
+    color: burlywood;
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    width: 100px;
+}
+
+.nomefaleconosco:hover{
+    color: gray;
+}
+
+
+
+footer{
+    
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+    height: 230px;
+    top:  410%;
+    left: 0%;
+
+}
+
+.logo2{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 0%;
+    left: 5%;
+}
+
+.email{
+    position: absolute;
+    color: white;
+    top:28%;
+    left:33%;
+}
+
+.numtel{
+    position: absolute;
+    color: white;
+    top:38%;
+    left:33%;
+}
+
+.tituloContato{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top:5%;
+    left:33%;
+
+}
+
+.tituloEndereco{
+    position: absolute;
+    color: white;
+    top:5%;
+    left:58%;
+}
+
+.Endereco{
+    position: absolute;
+    color: white;
+    top:28%;
+    left:58%;
+}
+
+.direitoshome{
+    position: absolute;
+    color: white;
+    left:30%;
+    top:80%;
+    font-size: 7px;
+}
