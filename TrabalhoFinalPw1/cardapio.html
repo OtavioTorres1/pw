@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elements Eventos e Gastronomia-Cardápio</title>
+
+  <link rel="stylesheet" href="css/cardapio.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">  
+
+
+  </head>
+  <body>
+    
+    <header>
+    
+        <img class="logo1" src="./images/Imagem_do_WhatsApp_de_2024-09-29_à_s__11.39.38_40cf26dd-removebg-preview.png">
+    
+        <div>
+            <a class="BotaoFaleConosco" href="faleconosco.html">Fale conosco</a>
+            <a class="BotaoHome" href="home.html">Home</a>
+            <a class="BotaoGaleria" href="galeria.html">Galeria</a>
+            <a class="BotaoCardapio" href="cardapio.html">Cardápio</a>
+        </div>
+
+        <div class="bemvindo">
+            <h1 class="dancing-script-uniquifier">SEJA BEM VINDO AO CARDÁPIO</h1>          
+        </div>
+
+    </header>
+
+  <div class="Cardapio">
+    <div class="Tipos">
+    <div class="TiposFestas" id="TiposFestas" onclick="aparecer('CB')">
+          <h2>Coquetel Básico</h2>
+          <strong class="preco">R$ 50,00 por pessoa</strong>
+    </div>
+
+    <div class="TiposFestas" id="TiposFestas2" onclick="aparecer('CP')">
+          <h2>Coquetel Premium</h2>
+          <strong class="preco">R$ 60,00 por pessoa</strong>
+    </div>
+
+    <div class="TiposFestas" id="TiposFestas3" onclick="aparecer('JC')">
+          <h2>Jantar Completo</h2>
+          <strong class="preco">R$ 80,00 por pessoa</strong>
+    </div>
+  </div>
+    <div class="descFestas" id="descFestas"> 
+        <h2>Coquetel Básico - R$50,00 por pessoa</h2>
+        <br>
+        <p><strong>Drinks:</strong>Águas, sucos naturais, baldes de Cerveja e refrigerantes</p>
+        <br>
+        <p><strong>Canapés Simples:</strong>Pão de forma com patê de frango, patê de atum, ou pasta de queijo.</p>
+        <br>
+        <p><strong>Mini Sanduíches:</strong>Sanduíches de carne, frango, queijo ou presunto.</p>
+        <br>
+        <p><strong>Petiscos fritos:</strong>Bolinho de queijo, bolinho de arroz, mini quibes ou coxinhas.</p>
+        <br>
+        <p><strong>Frutas:</strong> Pequenas porções de frutas frescas ou espeto de frutas.</p>
+        <br>
+        <br>
+
+      <h2>Coquetel Premium- R$50,00 por pessoa</h2>
+      <br>
+      <p><strong>Drinks:</strong>Águas, sucos naturais, baldes de Cerveja, refrigerantes, caipirinhas e misturas com gin</p>
+      <br>
+      <p><strong>Canapés Gourmet:</strong>Canapés de salmão defumado, queijo brie, patê de figo e foie gras.</p>
+      <br>
+      <p><strong>Mini pratos quentes:</strong>porções de risoto, mini massas (como nhoque ou ravioli), empanadas, quiches e mini crepes.</p>
+      <br>
+      <p><strong>Petiscos Gourmet:</strong>Mini espetinhos de camarão, mini porções de ceviche, bolinhos de bacalhau ou mini hamburgueres gourmet.</p>
+      <br>
+      <p><strong>Frutas e queijos:</strong> seleção de queijos finos e frutas secas.</p>
+      <br>
+      <p><strong>Bolos:</strong>Bolos de chocolate, ninho, doce de leite, morango, limão, entre outros.</p>
+      <br>
+      <br>
+    <h2>Jantar Completo - R$50,00 por pessoa</h2>
+    <br>
+    <h3>Entradas</h3>
+    <br>
+    <hr>    
+    <br>
+    <p><strong>Saladas Variadas:</strong>Folhas frescas, tomates, queijos, frutas e amendoins.</p>
+    <br>
+    <p><strong>Entradas Frias:</strong>Canapés e terrines, como terrine de pato ou salmão com cream cheese.</p>
+    <br>
+    <h3>Pratos Principais:</h3>
+    <br>
+    <hr>
+    <br>
+    <p><strong>Carnes:</strong>Carne assada, filé mignon, frango grelhado ou porção de cordeiro.</p>
+    <br>
+    <p><strong>Peixes:</strong>Filé de peixe branco, camarão ou bacalhau.</p>
+    <br>
+    <p><strong>Acompanhamentos</strong>arroz de açafrão, purê de batata, farofa, legumes grelhados, massas, risotos, batata gratinada ou batata frita.</p>
+    <br>
+    <h3>Sobremesas</h3>
+    <br>
+    <hr>
+    <br>
+    <p><strong>Sobremesas Sofisticadas</strong>Mousses, pudim de leite condensado, tortas, ou petit gâteau.</p>
+    <br>
+    <p><strong>Bolos:</strong>Bolos de chocolate, ninho, doce de leite, morango, limão, entre outros.</p>
+    <br>
+    <h3>Bebidas</h3>
+    <br>
+    <hr>
+    <br>
+    <p><strong>Bebidas:</strong>Águas, sucos naturais, baldes de Cerveja, refrigerantes, vinhos brancos ou tintos espumantes, caipirinhas e misturas com gin</p>
+</div>
+
+<section class="container2">
+
+    <h1 class="TextoFaleConosco1"> Ficou interessado em nossos serviços? Fale conosco preenchendo o nosso formulário que irá calcular automaticamente e mostrar o valor do seu orçamento </h1>
+
+<div class="ColunaFaleConosco">
+
+    <div class="TituloFaleConosco">
+        <h1 class="dancing-script-uniquifier">
+            FALE CONOSCO
+        </h1>
+    </div>
+
+    <div class="TextoFaleConosco">
+        <p class="dancing-script-uniquifier">
+            Deseja falar conosco? Clique no botão abaixo:
+        </p>
+    </div>
+
+    <div class="botaoFaleConosco">
+        <a class="nomefaleconosco" href="index2.html">Fale Conosco</a>
+    </div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<img class="logo2" src="./images/Imagem_do_WhatsApp_de_2024-09-29_à_s__11.39.38_40cf26dd-removebg-preview.png">
+
+<div class="dancing-script-uniquifier   ">
+<h1 class="tituloContato">
+    Contato
+</h1>
+
+<h1 class="tituloEndereco">
+    Endereço
+</h1>
+
+</div>
+
+<div class="Endereco">
+<p>
+    Av.Paulista, 276-São Paulo-SP
+</p>
+</div>
+
+<div class="email">
+<p>
+BuffetElements@gmail.com
+</p>
+</div>
+
+<div class="numtel">
+<p>
++55 11 96083-5717
+</p>
+</div>
+
+<div class="direitoshome">
+<h1>
+   ELEMENTS EVENTOS E GASTRONOMIA - COPYRIGHT © 2024 - TODOS OS DIREITOS RESERVADOS
+</h1>
+</div>
+
+</footer>
+
+  <script src="js/cardapio.js"></script>
+</body>
+</html>

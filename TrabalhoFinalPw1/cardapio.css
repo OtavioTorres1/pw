@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dancing-script-uniquifier {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .playfair-display-uniquifier {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+  }
+
+  header{
+    position: relative;
+
+    background-color: rgb(0, 0, 0);
+    
+    width: 101%;
+    height: 140px;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo1{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: -22%;
+    left: 10%;
+}
+
+.BotaoFaleConosco{
+    position: absolute;
+    color: BurlyWood;
+    top: 41%;
+    left: 77%;
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    height: 35px;
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    border-top: 1px solid BurlyWood;
+    border-bottom: 1px solid BurlyWood;
+    border-right: 1px solid BurlyWood;
+    border-left: 1px solid BurlyWood;
+}
+
+.BotaoFaleConosco:hover{
+    color: white;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.BotaoHome{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 43%;
+    left: 51%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 0px 20px;
+    border-right: 3px solid BurlyWood;
+}
+
+.BotaoHome:hover{
+    color: burlywood;
+}
+
+.BotaoGaleria{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 43%;
+    left: 67%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 0px 20px;
+    border-right: 3px solid BurlyWood;
+}
+
+.BotaoGaleria:hover{
+    color: burlywood;
+}
+
+.BotaoCardapio{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 43%;
+    left: 58%;
+    font-size: 25px;
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 3px solid BurlyWood;
+}
+
+.BotaoCardapio:hover{
+    color: burlywood;
+}
+
+.bemvindo{
+    position: absolute;
+    top: 200%;
+    left: 26%;
+    font-size: 25px;
+    flex:content;
+    color: burlywood;
+}
+
+  
+  h2 {
+    color: #8c8c8c;
+  }
+  
+  .preco {
+    color: #f53838;
+  }
+  
+  .Cardapio {
+    display: flex;
+    gap: 20px;
+    margin-top: 350px;
+  }
+  
+  .TiposFestas {
+    margin: 150px;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #8c8c8c;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .TiposFestas:hover {
+    transform: scale(1.05);
+  }
+  
+  .descFestas {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: none;
+  }
+
+
+  .container2{
+    background-color: Wheat;
+    position: absolute;
+    border-top: 3px solid rgb(0, 0, 0);
+
+
+    height: 500px;
+    width: 100%;
+    left: 0%;
+    top: 295.5%;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.TextoFaleConosco1{
+    position: absolute;
+    left: 12%;
+    top: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    font-size: 20px;
+}
+
+
+.TituloFaleConosco{
+    position: absolute;
+    left: 58%;
+    top: 14%;
+    font-size: 30px;
+}
+
+.TextoFaleConosco{
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    left: 55%;
+    top: 34%;
+    font-size: 25px;
+}
+
+.botaoFaleConosco{
+    position: absolute;
+    left: 62%;
+    top: 55%;
+    color:black;
+    
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+    padding: 0px 30px;
+    border:none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.botaoFaleConosco:hover{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.nomefaleconosco{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 100%;
+}
+
+.nomefaleconosco:hover{
+    color: gray;
+}
+
+
+
+footer{
+    
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+    height: 230px;
+    top:  360%;
+    left: 0%;
+
+}
+
+.logo2{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 0%;
+    left: 5%;
+}
+
+.email{
+    position: absolute;
+    color: white;
+    top:28%;
+    left:33%;
+}
+
+.numtel{
+    position: absolute;
+    color: white;
+    top:38%;
+    left:33%;
+}
+
+.tituloContato{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top:5%;
+    left:33%;
+
+}
+
+.tituloEndereco{
+    position: absolute;
+    color: white;
+    top:5%;
+    left:58%;
+}
+
+.Endereco{
+    position: absolute;
+    color: white;
+    top:28%;
+    left:58%;
+}
+
+.direitoshome{
+    position: absolute;
+    color: white;
+    left:30%;
+    top:80%;
+    font-size: 7px;
+}

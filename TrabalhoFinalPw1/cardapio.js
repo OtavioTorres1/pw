@@ -1,0 +1,13 @@
+function aparecer(type) {
+    const descFestas = document.getElementById('descFestas');
+    let content = "";
+if (type === "CB") {
+    content= '<h2>Coquetel Básico - R$50,00 por pessoa</h2> <p><strong>Drinks:</strong>Águas, sucos naturais, baldes de Cerveja e refrigerantes</p> <p><strong>Canapés Simples:</strong>Pão de forma com patê de frango, patê de atum, ou pasta de queijo.</p> <p><strong>Mini Sanduíches:</strong>Sanduíches de carne, frango, queijo ou presunto.</p> <p><strong>Petiscos fritos:</strong>Bolinho de queijo, bolinho de arroz, mini quibes ou coxinhas.</p> <p><strong>Frutas:</strong> Pequenas porções de frutas frescas ou espeto de frutas.</p>  ';
+} else if (type === "CP") {
+    content= '<h2>Coquetel Premium- R$50,00 por pessoa</h2> <p><strong>Drinks:</strong>Águas, sucos naturais, baldes de Cerveja, refrigerantes, caipirinhas e misturas com gin</p> <p><strong>Canapés Gourmet:</strong>Canapés de salmão defumado, queijo brie, patê de figo e foie gras.</p> <p><strong>Mini pratos quentes:</strong>porções de risoto, mini massas (como nhoque ou ravioli), empanadas, quiches e mini crepes.</p> <p><strong>Petiscos Gourmet:</strong>Mini espetinhos de camarão, mini porções de ceviche, bolinhos de bacalhau ou mini hamburgueres gourmet.</p> <p><strong>Frutas e queijos:</strong> seleção de queijos finos e frutas secas.</p> <p><strong>Bolos:</strong>Bolos de chocolate, ninho, doce de leite, morango, limão, entre outros.</p>';
+} else {
+    content= '<h2>Jantar Completo - R$50,00 por pessoa</h2><h3>Entradas</h3><p><strong>Saladas Variadas:</strong>Folhas frescas, tomates, queijos, frutas e amendoins.</p><p><strong>Entradas Frias:</strong>Canapés e terrines, como terrine de pato ou salmão com cream cheese.</p><h3>Pratos Principais:</h3><p><strong>Carnes:</strong>Carne assada, filé mignon, frango grelhado ou porção de cordeiro.</p><p><strong>Peixes:</strong>Filé de peixe branco, camarão ou bacalhau.</p><p><strong>Acompanhamentos</strong>arroz de açafrão, purê de batata, farofa, legumes grelhados, massas, risotos, batata gratinada ou batata frita.</p><h3>Sobremesas</h3><p><strong>Sobremesas Sofisticadas</strong>Mousses, pudim de leite condensado, tortas, ou petit gâteau.</p> <p><strong>Bolos:</strong>Bolos de chocolate, ninho, doce de leite, morango, limão, entre outros.</p> <h3>Bebidas</h3> <p><strong>Bebidas:</strong>Águas, sucos naturais, baldes de Cerveja, refrigerantes, vinhos brancos ou tintos espumantes, caipirinhas e misturas com gin</p>';
+}
+descFestas.innerHTML = content;
+descFestas.style.display = "block";
+}
