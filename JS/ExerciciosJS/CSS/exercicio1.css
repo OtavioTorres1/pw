@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+    color: black;
+
+    border-bottom: 2px solid black ;
+    border-left: 2px solid black ;
+    border-right: 2px solid black ;
+    border-top: 2px solid black ;
+
+}
+
+.home{
+
+    position: absolute;
+    font-size: 30px;
+
+    left: 90% ;
+    top: 5%;
+
+}
+
+.home:hover{
+    color: dimgray;
+}
